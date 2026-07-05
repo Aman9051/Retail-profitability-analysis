@@ -74,8 +74,6 @@ SQL queries can be run against `data/superstore.db` with any SQLite client, or a
 
 The interactive dashboard (`dashboard/dashboard.html`) includes KPI cards (Total Sales, Total Profit, Margin, Orders) and charts for profit margin by sub-category, region × category profit, monthly trend, and discount-vs-margin. It's a self-contained HTML file — no server needed, and easy to publish via GitHub Pages.
 
-> Note: the original project brief suggested Tableau for the dashboard. This repo uses **Plotly/HTML** instead so the dashboard is viewable directly from GitHub/GitHub Pages without requiring a Tableau license — the same data model (`data/*_summary.csv`) can be plugged straight into Tableau if preferred.
-
 ## 📈 Charts
 
 <table>
